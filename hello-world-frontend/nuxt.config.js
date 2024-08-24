@@ -13,4 +13,8 @@ export default {
     // Axios module configuration
     baseURL: 'https://rickandmortyapi.com/api/character', // Set the base URL for API requests
   },
+  css: [
+    // Global CSS file
+    '~/static/characterList.css',
+  ],
 }
