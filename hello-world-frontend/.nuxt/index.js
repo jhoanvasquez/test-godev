@@ -13,7 +13,7 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_axios_2030addb from 'nuxt_plugin_axios_2030addb' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_axios_c2da78aa from 'nuxt_plugin_axios_c2da78aa' // Source: .\\axios.js (mode: 'all')
 import nuxt_plugin_axios_5659d192 from 'nuxt_plugin_axios_5659d192' // Source: ..\\plugins\\axios.js (mode: 'all')
 
 // Component: <ClientOnly>
@@ -214,8 +214,8 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_axios_2030addb === 'function') {
-    await nuxt_plugin_axios_2030addb(app.context, inject)
+  if (typeof nuxt_plugin_axios_c2da78aa === 'function') {
+    await nuxt_plugin_axios_c2da78aa(app.context, inject)
   }
 
   if (typeof nuxt_plugin_axios_5659d192 === 'function') {

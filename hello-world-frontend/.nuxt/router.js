@@ -4,6 +4,8 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _75875ca0 = () => interopDefault(import('..\\node_modules\\@nuxt\\vue-app\\template\\pages\\index.vue' /* webpackChunkName: "" */))
+
 const emptyFn = () => {}
 
 Vue.use(Router)
@@ -15,7 +17,10 @@ export const routerOptions = {
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior,
 
-  routes: [],
+  routes: [{
+    path: "",
+    component: _75875ca0
+  }],
 
   fallback: false
 }
