@@ -1,6 +1,5 @@
 export default {
-  // Other configurations...
-
+  target: 'static',
   modules: [
     '@nuxtjs/axios',
     '@nuxtjs/dotenv',
