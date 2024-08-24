@@ -14,7 +14,13 @@ export default {
     baseURL: 'https://rickandmortyapi.com/api/character', // Set the base URL for API requests
   },
   css: [
-    // Global CSS file
     '~/static/characterList.css',
   ],
+  build: {
+    loaders: {
+      css: {
+        sourceMap: process.env.NODE_ENV !== 'production',
+      },
+    },
+  },
 }
